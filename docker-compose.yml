@@ -2,9 +2,7 @@ version: '3.8'
 
 services:
   prompt-manager:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: zhuchenyu2008/prompt-manage:latest
     ports:
       - "3501:3501"
     volumes:
